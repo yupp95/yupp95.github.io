@@ -30,6 +30,7 @@
 @import "message";
 @import "toc";
 @import "alignment";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Nanum+Pen+Script&display=swap');
 
 @import "syntax-light";
 @media (prefers-color-scheme: dark) {
@@ -51,4 +52,9 @@
   dd {
     margin-left: var(--spacer);
   }
+}
+//fontfamilies
+
+p,a,h1,h2,h3,h4,h5,h6,small {
+  font-family: 'Gothic A1', sans-serif;
 }
